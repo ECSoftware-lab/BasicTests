@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsFilters", "TestsFilters\TestsFilters.csproj", "{FEC93F69-59CA-4489-AB34-9810B33A55DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContexFake", "DbContexFake\DbContexFake.csproj", "{48177CE7-0143-47C2-BBA8-29F03002A631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEC93F69-59CA-4489-AB34-9810B33A55DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC93F69-59CA-4489-AB34-9810B33A55DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC93F69-59CA-4489-AB34-9810B33A55DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC93F69-59CA-4489-AB34-9810B33A55DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48177CE7-0143-47C2-BBA8-29F03002A631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48177CE7-0143-47C2-BBA8-29F03002A631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48177CE7-0143-47C2-BBA8-29F03002A631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48177CE7-0143-47C2-BBA8-29F03002A631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {919D2FF1-9E44-4FC1-B74D-B883134C9EF1}
+	EndGlobalSection
+EndGlobal
