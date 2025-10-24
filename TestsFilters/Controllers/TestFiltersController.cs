@@ -9,8 +9,10 @@ namespace TestsFilters.Controllers
     public class TestFiltersController : ControllerBase
     {
         [HttpGet("public")]
+        [ServiceFilter(typeof(PerformanceMonitorFilter))]
         public IActionResult PublicEndpoint()
         {
+            var t = "SD";
             return Ok(new { message = "This is a public endpoint." });
         }
         [HttpGet("protectedAuthoriztion")]
